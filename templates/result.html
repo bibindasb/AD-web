@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+<body>
+    <h1>Operation Result</h1>
+    {% if success %}
+        <p style="color: green;">{{ message }}</p>
+    {% else %}
+        <p style="color: red;">{{ message }}</p>
+    {% endif %}
+    <a href="/">Back to Portal</a>
+</body>
+</html>
